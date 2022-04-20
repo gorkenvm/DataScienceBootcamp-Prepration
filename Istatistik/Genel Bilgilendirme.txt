@@ -1,0 +1,47 @@
+Veri Bilimi için İstatistik eğitimine hoş geldiniz! Eğitimi tamamladığınız zaman aşağıdaki konular hakkında bilgi sahibi olacaksınız:
+
+
+Örnek Teorisi
+Betimsel İstatistikler
+Güven Aralığı
+İş Uygulaması: Fiyat Stratejisi Karar Destek Sistemi
+Olasılığa Giriş ve Olasılık Dağılımları
+Bernoulli Dağılımı
+Büyük Sayılar Yasası
+Binom Dağılımı
+İş Uygulaması: Reklam Harcaması Optimizasyonu
+Poisson Dağılımı
+İş Uygulaması: İlan Girişi Hata Olasılıklarının Hesaplanması
+Normal Dağılım
+İş Uygulaması: Ürün Satış Olasılıklarının Hesaplanması
+Hipotez Testi Nedir?
+Hipotezler ve Türleri
+Hata Tipleri
+p-value
+Hipotez Testi Adımları
+Tek Örneklem T Testi
+İş Uygulaması: Ürün Satın Alma Adım Optimizasyonu
+İş Uygulaması: Web Sitesinde Geçirilen Sürenin Testi
+Tek Örneklem T Testi Varsayım Kontrolü
+Nonparametrik Tek Örneklem T Testi
+Tek Örneklem Oran Testi
+İş Uygulaması: Dönüşüm Oranı Testi
+Bağımsız İki Örneklem T Testi ( AB Testi )
+İş Uygulaması: ML Modelinin Başarı Testi
+Bağımsız İki Örneklem T Testi Varsayım Kontrolü
+Nonparametrik Bağımsız İki Örneklem T Testi
+Bağımlı İki Örneklem T Testi
+İş Uygulaması: Şirket İçi Eğitimin Performans Etkisi Ölçümü
+Bağımlı İki Örneklem T Testi Varsayım Kontrolü
+Nonparametrik Bağımlı İki Örneklem Testi
+İki Örneklem Oran Testi
+İş Uygulaması: Kullanıcı Arayüzü Deneyi ( AB Testi )
+Varyans Analizi
+İş Uygulaması: Anasayfa İçerik Stratejisi Belirleme
+Varsayım Kontrolü
+Nonparametrik Hipotez Testi
+Korelasyon Analizi
+İş Uygulaması: Bahşiş ile Ödenen Hesap Arasındaki İlişkinin İncelenmesi
+Korelasyon Varsayım Kontrolü
+Korelasyon Katsayısı Hipotez Testi
+Nonparametrik Korelasyon Testi
