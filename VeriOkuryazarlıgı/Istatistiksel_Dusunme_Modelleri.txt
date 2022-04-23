@@ -1,0 +1,102 @@
+İstatistiksel düşünme modelleri, akademi ve endüstride kullanılmak üzere çeşitli modellerden oluşmaktadır.
+Biz 'Mooney' modelini inceleyeceğiz ve kullanacağız.
+
+			VERİNİN TANIMLANMASI
+				||
+		VERİNİN ORGANİZE EDİLMESİ VE İNDİRGENMESİ
+				||
+			VERİ GÖSTERİMİ
+				||
+		VERİNİN ANALİZ EDİLMESİ VE YORUMLANMASI
+
+#######################################################################################################################################
+VERİNİN TANIMLANMASI: Burada bir anket örneği yapacağız
+Anketi yanıtlayan 2.000 kişinin %43,4'ü Erkek ve %66,4'ü Kadındır. Yanıtlayanların %80'i 15-27 yaş aralığındadır.
+Kadınların %72'si İngilizce Bilmektedir. Erkekler günde 3 saat, Kadınlar 4 saat internette vakit geçirmektedir.
+Erkeklerin %72'si Kadınların %75'i Üniversite mezunudur.
+
+SORULAR ÇIKARALIM
+
+A - Ölçülmeye çalışılan değişkenler nelerdir ? 
+B - Değişkenlerin Türleri ?
+C - Değişkenlerin Ölçekleri ?
+D- Dikkatinizi çeken anormallikler ?
+E - Bir kaç dakika yorum yap
+
+	A				B				C
+1 . Cinsiyet			    Kategorik			     Nominal
+2. Yaş				    Sayısal			     Oran
+3. İng.Bilme			    Kategorik			     Nominal
+4. İnternetteki zaman               Sayısal			     Oran
+5. Eğitim Durumu 		    Kategorik  			     Ordinal
+
+
+D - Erkek, Kadın oran toplamı %100 yapması gerekirken %100 den fazla, böyle birşey mümkün değildir.
+İngilizce bilen kadınların oranı verilmiş, ya diğer kadınlar ne biliyor başka dil mi, ya erkekler ne alemde hiçbirşey net değil. 
+Fatal Error diyebileceğimiz cinsten bir veri.
+
+#######################################################################################################################################
+
+VERİNİN ORGANİZE EDİLMESİ VE İNDİRGENMESİ
+
+Bakkal defteri örneği; Bakkal saati saatine satışları ve satış rakamlarını not etmiş ama okuyamıyor.
+
+saat		kazanç							saat		kazanç
+7:10		 12							6-9		  12
+10:15		 18				  |			9-12		  18
+13:30     	 8	--------------------------|||\			12-15		   8
+15:25		 12     --------------------------|||/		        15-18		  12 
+18:10		 20				  |			18-21		  20
+22:15		 14							21-24		  24
+23:40		 10
+
+Sağ taraftaki gibi indirgeme işlemi yaptık. Daha güzel görünüyor
+
+
+#######################################################################################################################################
+
+VERİNİN GÖRSTERİMİ
+
+Çeşitli grafikler ile görselleştirme işlemi yapılır.
+
+#######################################################################################################################################
+
+VERİNİN ANALİZ EDİLMESİ VE YORUMLANMASI
+
+Survivor yarışma sorusu: Katılacak grupların fiziksel ve psikolojik güçleri ölçülüyor ve bir puan veriliyor.
+		Puan	Std
+Gönüllüler	70	3
+Ünlüler		74	8
+
+Uzun soluklu, açlık ve doğa ile mücadelenin olacağı bu yarışmada takım ruhu en önemli şeydir. 
+Veri bilimci olarak hangi takımı yönetmeyi seçersin.
+
+Cevap: Puanı düşük olsada gönüllüler çünkü güçler 67-73 arası oyuncuların gücü bir birine yakın ve iyi bir ruh olacaktır.
+Öte yandan 66-82 güçlerine sahip bir grup olan ünlülerin takım ruhunun zayıf, hatta grup içi hiyerarşi ile birlikte kavgaların da olacagı öngörülmektedir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
