@@ -1,0 +1,52 @@
+Populasyon: Verinin genelini temsil eder.
+Örneklem: Populasyonu temsil edecek örnektir. Populasyondan belirli bir ölçekte alınır.
+Observation Unit(Gözlem Birimi): Örneklemdeki row(satır)ların herbiridir.
+Variables(Değişkenler): Columns(kolonlar) dır. Sayısal ve Kategorik olarak iki tip'e ayrılır.
+
+
+########### ÖLÇEK TÜRLERİ ###############
+
+Sayısal : Aralık ve Oran ölçek türü
+Kategorik : Nominal ve Ordinal ölçek türü
+
+Aralık: Başlangıç noktası sıfırdan başlamıyorsa. Diğer bir değiş ile 0 hiçlik anlamına gelmiyorsa. Ör// 0 yılı, milad'ı temsil eder hiçlik belirtmez.
+Oran: Başlangıç noktası sıfır ise, 0 hiçlik belirtiyorsa. Ör// Yaş, Boy. Sıfır cm boy hiçlik belirtir.
+
+Nominal: name gibi düşünebiliriz. Kategoriler arası fark yoktur. Erkek-Kadın gibi. Ordinal'ı okuyunca nominal'i daha iyi anlayacaksın
+Ordinal: Kategoriler arası fark vardır. Mezuniyet; ilkokul,lise, üniversite. birini bitirmeden diğerini bitiremezsin sıralıdır. Rütbe; teğmen, yüzbaşı, albay gibi
+
+############################## MERKEZİ EĞİLİM ÖLÇÜLERİ ###############################
+
+Mean(Aritmetik Ortalama): Verilerin toplamının veri sayısına bölünmesidir.
+Median(medyan): Serinin küçükten büyüğe sıralandığında ortada kalan saıyısıdır.
+***NOT*** Seri simetrik ise yani aykırı değerler yok ise mean, simetrik değil yani aykırı değerler var ise median kullanmak daha anlamlıdır. Aykırı değer: 12,13,15,16,16,17,22,90 Bu seride rakamlar bir birine yakın iken 90 çok uzak bir rakamdır. 90 aykırı değerdir.
+
+Mod: En çok tekrar eden değer/değerler dir.
+Quartiles(kartiller): Küçükten büyüğe sıralanan seriyi 4 parçaya ayıran değerlerdir. Q1(%25) Q2(%50) Q3(%75) i temsil eder.
+
+###################### MEASURE OF DİSPERSİON (DAĞILIM ARALIĞI) ######################
+
+Değişim Aralığı:Maximum değer - Minimum Değer.  İlkel bir yöntemdir.
+Standart Deviation(standart sapma): Ortalamaya olan uzaklıkların ortalamasıdır. Merkezin etrafınadaki yayılımı gösterir. 
+Variance(varyans): std'nin karesidir. Birden fazla değişkenin bir biri ile kıyaslanmasında kullanılır. 
+Skewness(Çarpıklık): Bir değişkenin dağılımının simetrik olmamasıdır. Normal dağılım gauss grafiğini düşünün sağa yatık veya sola yatık gibi hayal edin. işte budur çarpıklık. sağa yatık ise Negatif Çarpık, Sola yatık ise Pozitif Çarpıktır.
+Çarpıklıkta Kullanabilecek Katsayılar: 
+Pearson Çarpıklık Katsayısı(PÇK): 3(mean-median)/std
+pçk<0 Negatif Çarpık
+pçk>0 Pozitif Çarpık
+pçk=0 Simetrik, Normal Dağılım
+Kurtosis(Basıklık): Dağılımın basıkığını/sivriliğini gösterir.
+Normal dağılımı düşünün, daha alçak ve daha yayvan ise basıktır diyoruz. Daha yüksek ve ve yayvan değilse sivridir diyoruz.
+Basıklık Katsayısı(BK) 
+BK<3 Basık
+BK>3 Sivri
+BK=3 Normal dağılım
+
+
+
+
+
+
+
+
+
