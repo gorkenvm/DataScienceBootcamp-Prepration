@@ -1,0 +1,19 @@
+* Veri Temizleme ( Data Cleaning/Cleasing)
+    - Gürültülü Veri (Noisy Data)
+        // Erkek - Hamile
+        // Biberon fiyatı - 100000$ gibi
+    - Eksik Veri
+    - Aykırı Veri
+
+* Veri Standardizasyonu (Data Standardization/ Feature Scaling)
+    - 0-1 Dönüşümü (Normalization)
+    - z-skoruna Dönüştürme (Standardization)
+    - Logaritmil Dönüşüm (Log Transformation
+
+* Veri İndirgeme (Data Reduction)
+    - Gözlem (Observation) Sayısının Azaltılması
+    - Değişken (Variable) Sayısının Azaltılması
+
+* Değişken Dönüşümleri (Variable Transformation)
+    - Sürekli Değişkenlerde Dönüşümler
+    - Kategorik Değişkenlerde Dönüşümler
