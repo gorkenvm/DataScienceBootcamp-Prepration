@@ -1,3 +1,7 @@
+# Betimsel istatistiğin bileşenleri: Ortalama Medyan Mod Kartiller DeğişimAralığı StandartSapma Kovaryans Kolerasyon
+# Korelasyon : İki değişken arasındaki ilişkiyi, ilişkinin anlamlı olup olmadığını, ilişkinin şiddetini ve yönünü ifade eder.
+# Varyans : Ortalama etrafındaki dağılımın ölçümüdür. Standart sapmanın karesidir.
+# Kovaryans : iki değişkenin kendi ortalamalarından olan sapmalarının çarpımıdır. 
 
 import seaborn as sns
 tips = sns.load_dataset("tips")  # this data set is an library in seaborn
