@@ -1,3 +1,7 @@
+# Normal dağılımı en önemli dağılımdır.
+# Normal dağıldığı bilinen sürekli rassal değişkenler için olasılık hesaplaması için kullanılır.
+
+
 # İş Uygulaması: Ürün satış olasılıklarının hesaplanması.
 # Problem: Gelecek ay ile ilgili satışların belirli değerlerde gerçekleşmesi olasılıkları belirlenmek isteniyor.
 # Dağılımın normal olduğu biliniyor. Görselleştirme veya hipotez testi ile bilinebilir.
