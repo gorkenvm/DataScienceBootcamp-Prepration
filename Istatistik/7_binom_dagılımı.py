@@ -14,3 +14,7 @@ rv = binom(n, p)
 print(rv.pmf(1))
 print(rv.pmf(5))
 print(rv.pmf(10)) 
+
+# 100 Kişinin gördüğünü biliyoruz ve kaç kişinin tıklayacağını öğreniyoruz.
+# 10 kişinin tıklaması için kaç kişinin görmesi lazım bunuda sorabiliriz.
+# Hedeflerimize göre optimize edebiliyoruz.
