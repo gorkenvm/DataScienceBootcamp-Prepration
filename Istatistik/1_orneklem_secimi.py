@@ -1,4 +1,7 @@
 import numpy as np
+# Bir şehirdeki kişilerin yaş ortalamasını incelemek istiyoruz fakat fiziksel olarak mümkün değildir. Örnekteki 10.000 kişi şehirdeki kişileri ifade ediyor.
+# Tamamını inceleyemeyeceğimiz için 10 tane farklı 100 er kişi seçiyoruz. Populasyondan 10 tane örneklem çekiyoruz ve bunların ortalamasına bakıyoruz.
+# İstatistik diyor ki bu örneklemin ortalaması popülasyonun ortalamasına çok yakın olacaktır. Bu yüzden de tüm şehrin yaşını kaydetmek yerine sadece rastgele örneklemler ile işi bitiriyoruz.
 
 population = np.random.randint(0, 80, 10000) # created a random population serie
 print(population[0:10])
