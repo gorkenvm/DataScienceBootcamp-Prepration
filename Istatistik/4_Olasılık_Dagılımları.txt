@@ -1,0 +1,13 @@
+Rassal Değişken : Değerini bir deneyin sonucundan alır. Para atılıyor. Sonuç Yazı yada Tura, rassal değişkenler Yazı ve Tura'dır.
+Yazı Tura kesikli rassal değişkendir.
+Maaş sürekli rassal değişkendir.
+
+Olasılık dağılımları için kullanacağımız teknikler değişiklik göstermektedir.
+
+Kesikli Olasılık Dağılımları                        Sürekli Olasılık dağılımları
+  * Bernoulli                                           * Normal Dağılım
+  * Binom                                               * Uniform Dağılım
+  * Poisson                                             * Üstel Dağılım
+  
+  
+  Çok daha fazla teknik vardır. Genelde bunları kullanacağız.
