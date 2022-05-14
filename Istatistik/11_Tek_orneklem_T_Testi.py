@@ -1,3 +1,14 @@
+# Parametrik bir testtir. Popülasyon ortalaması ile varsayımsal bir değer arasında istatistiksel olarak anlamlı bir farklılık olup olmadığını test eder.
+# Daha basit bir dille, Örneklem ortalamasına ilişkin test yapmak için kullanılır. 
+# 10.000 kişilik ilçeden 100 kişilik örneklem çekmiştik. örneklemin ortalaması ile test yaparak anakitle ortalaması tahmin edilir.
+
+# 1. Anakütle std'si biliniyorsa z istatistiği kullanılır
+# 2. Anakütle std'si bilinmiyorsa ve n > 30 ise z istatistiği kullanılır
+# 3. Anakütle std'si bilinmiyorsa ve n < 30 ise z istatistiği kullanılır
+
+# Genelde n > 30 olduğu için t istatistiği kullanılıyor
+
+
 # Websitesinde geçirilen sürenin 170 sn'ye olduğu hipotezi var.
 # 50 valueli bir örneklem çekiyoruz.
 from os import stat
