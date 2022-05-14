@@ -1,0 +1,37 @@
+Hipotez : Bir inanışı(tahmini) test etmek için kullanılan istatistik bir tekniktir.
+Ör// Doktor bir ilaç buldu ve bir hastalığa iyi geldiğini düşündü. Aynı şartlarda iki grup hasta oluşturup
+Bir gruba bu ilacı verir diğer gruba vermez ve ilacın etkilerini gözlemler.
+
+                          HİPOTEZLER VE TÜRLERİ
+                       
+Ho: mu = 50       Ho: mu <= 50        Ho: mu >= 50
+H1: mu != 50       H1: mu > 50        H1: mu < 50 
+
+Yaş örneğinde, şehrin yaş ortalaması 50 dir deyip bunu test edebiliz.
+H0:mu=50, H1:mu!=50 gibi
+
+
+                          HATA TİPLERİ
+                  
+Doğru iken Doğru dersek = Güven Düzeyi
+Doğru iken Yanlış dersek = I. tip hata
+Yanlış iken Doğru dersek = II. tip hata
+Yanlış iken Yanlış dersek = Testin gücü
+
+
+                          Pvalue
+                          
+Pvalue değerine bakıp p < 0.05 ise H0 reddediyouz ve seviniyoruz.
+Dağılım testlerinde H0 reddedilmek istenilmez. Çünkü H0 örnek dağılımı ile teorik dağılım arasında fark yoktur der.
+Bu durumda H0'ı reddetmek istemeyiz.
+
+
+
+                          Hipotez Testi Adımları
+                          
+Adım 1 : Hipotezlerin kurulması ve yönlerinin belirlenmesi, yani H0 ve H1 'in kurulması
+Adım 2 : Anlamlılık düzeyinin belirlenmesi ve tablo değerinin belirlenmesi, Hangi tablo ile çalışacaksak, ör ki kara, t testi gibi
+Adım 3 : Test istatistiğinin belirlenmesi ve test istatistiğinin hesaplanması, burada da elimizde test istatistiği olacak.
+Adım 4 : Hesaplanan test istatistiği ve tablo değerinin karşılaştırılması, yani 2. adımdan gelen bir test değeri olacak ve 3. adımdan gelen test istatistiği
+Test istatistiği (zh) > Tablo değeri (zt) H0 Red
+
