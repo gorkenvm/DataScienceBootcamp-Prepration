@@ -1,0 +1,33 @@
+- Dağılım Grafikleri
+- Korelasyon Grafikleri
+- Çizgi Grafik
+- Basit Zaman Serisi			Grafiklerini öğrendik
+
+Elimizde olan veriye göre hangi grafiği kullanacağımızı biliyoruz;
+
+		#### DAĞILIM GRAFİKLERİ ####
+Bunlar değişkenleri tek başına inceleme imkanı veriyor.
+
+* Kategorik değişkenler için -------> Sütun grafik ( Bar plot )
+/// Bu sayede kategorik değişkenin sınıf frekansları ve dağılımlarına erişebiliriz.
+
+* Sayısal değişkenler için   -------> Histogram, Box Plot,  ekstra - Violin
+/// Sayısal değişkenlerin dağılımına ilişkin bilgi edinebiliyoruz.
+
+Bunlar değişkenleri tek başına inceleme imkanı veriyor.
+
+		#### KORELASYON GRAFİKLERİ ####
+Değişkenleri birlikte değerlendirme. İki sayısal veri
+
+* Scatter
+* lmplot   ( Linear Model )
+* pairplot ( Scatter Matrisi )
+* heatmap  ( ısı haritası )
+
+		#### ÇİZGİ GRAFİKLERİ ####
+
+* lineplot
+		#### BASİT ZAMAN SERİSİ GRAFİKLERİ ####
+
+*df.plot()
+
