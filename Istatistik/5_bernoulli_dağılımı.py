@@ -2,7 +2,9 @@
 # Başarılı-başarısız, Olumlu-olumusuz gibi iki sonuçlu olaylar ile ilgilenildiğinde kullanılır.
 # Kategorik verilerde uygulanır
 
+
 # Beklenen değer(mean) merkezi eğilimi ifade ediyor ve Varyans ise yayılımı ifade ediyor.
+
 
 from scipy.stats import bernoulli
 # Tura olma olasılığı 0.6, Yazı 0.4
