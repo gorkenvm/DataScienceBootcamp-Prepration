@@ -1,6 +1,7 @@
 # BÜYÜK SAYILAR YASASI
 # Bir rassal değişkenin uzun vadeli kararlılığını tanımlayan olasılık teoremidir.
 # Yazı tura deneyi fazla sayıda denediğimze hep %50 aralığında çıkar.
+
 import numpy as np
 
 rng = np.random.RandomState(123)  # RandomState, random işlemini sabitler.
