@@ -1,0 +1,13 @@
+Regresyon : Bağımlı değişkenin sayısal olduğu problemlerde kullandığımız tahmin yöntemidir.
+
+                    MODELLER
+
+K-En Yakın Komşu (K-Nearest Neighbors)
+Destek Vektör Regresyonu (Support Vector Regression)
+Yapay Sinir Ağları (Artificial Neural Network)
+CART( Classification and Regression Tree)
+Rastgele Ormanlar (Random Forests)
+Gradient Boosting Machines (GBM)
+XGBoost
+Light GBM
+CatBoost (Category Boosting)
