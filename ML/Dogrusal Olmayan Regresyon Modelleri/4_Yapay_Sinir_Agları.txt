@@ -1,0 +1,34 @@
+İnsan beyninin bilgi işleme şeklini referans alan sınıflandırma ve regresyon problemleri için
+kullanılabilen kuvvetli makine öğrenmesi algoritmalarından biridir. Yapay zekaya açılan kapıdır denilebilr.
+Özellikle Metin, görüntü ve ses işleme de kullanılır.
+Sınıflandırma ve regresyon problemlerinde de kullanılmaktadır.
+Amaç : En küçük hata ile tahmin yapabilecek katsayılara erişmek.
+
+Yapay sinir hücresi
+Girdiler ---- Ağırlıklar ---- Toplam fonksiyonu ----- Aktivasyon Fonksiyonu ---- Çıktı
+                                                                |
+                                                                |
+                                                            Eşik Değeri
+
+Yukarıdaki gibi bir yapıdan oluşmaktadır.
+Bir çok hücrenin bir araya gelmesiyle yapay sinir ağı meydana gelmektedir.
+Yapay sinir ağı ( en basit gösterimle)
+
+Girdi ------- Ara Katman ----- Çıktı
+
+En yaygın kullanılan ağ modeli geri beslemeli olanlardır. En sık delta öğrenme kuralı kullanılır.
+Nedir Delta öğrenme: Kabul edilir bir hata sonucu bulana kadar ağda yer alan katsayılar değiştirilir.
+katsayıların değişmesine ağın öğrenmesi denir.
+
+BASAMAKLAR
+
+- Örnek veri seti toplanır
+- Ağın topolojik yapısına karar verilir.
+- Ağda bulunan ağırlıklara başlangıç değeri atanır.
+- Örnek veri seti ağa sunulur
+- İleri hesaplama işlemleri yapılır.
+- Gerçek çıktılar ile tahmin edilen çıktıları karşılaştırılır. Öğrenmenin tamamlanması basamakları gerçekleştirilir.
+
+
+
+
