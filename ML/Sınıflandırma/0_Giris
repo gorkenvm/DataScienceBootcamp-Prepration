@@ -1,0 +1,19 @@
+Veri setinde bululanan bağımlı değişkenin sınıfalardan oluştuğu durumlarda kullanılan modelleme türüdür.
+Bağımlı değişkenin;
+Kadın - Erkek           Hasta - Sağlıklı            Ödeyebilir - Ödeyemez
+gibi kategorilerden oluştuğu problemlerin çözümünde kullanılır.
+
+Bu Bölümde:
+
+- Lojistik Regresyon
+- K-En Yakın Komşu (K-Nearest Neighbors)
+- Destek Vektör Regresyonu (Support Vector Regression)
+- Yapay Sinir Ağları (Artificial Neural Network)
+- CART( Classification and Regression Tree)
+- Rastgele Ormanlar (Random Forests)
+- Gradient Boosting Machines (GBM)
+- XGBoost
+- Light GBM
+- CatBoost (Category Boosting)
+
+Modellerini uygulayacağız.
