@@ -1,0 +1,8 @@
+Bağımlı değişkenin olmadığı sadece bağımsız değişkenlerin olduğu veri setlerine uygulanır.
+
+- K-Ortalama (K-Means)
+- Hiyerarşik Kümeleme Analizi (Hierarchical Cluster Analysis)
+- Temel Bileşen Analizi (Principal Component Analysis)
+
+Amacımız veri setindeki gözlem birimlerini bir birine benzetmek ve benzerliğine göre bazı işlemler yapmak.
+veya veri setinin değişkenlerine göre işlemler yapmak olacak.
