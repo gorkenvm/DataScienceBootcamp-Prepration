@@ -1,0 +1,33 @@
+Model Kurma : Bağımlı değişken ile bağımsız değişkenler arasındaki ilişkiyi modellemek demektir.
+Örnek /Sayısal/ Araç fiyat tahmin modeli, fiyatı oluşturan faktörler bağımsız değişkenler; vites, km, hasar durumu ...
+Örnek /Kategorik/ Kredisini ödeyebilecek mi? Ödeyemeyecek mi?, Hayatta kalacak mı? Kalamayacak mı?
+Sayısal ve Kategorik bağımlı değişkene kurulan modellerin değerlendirme yöntemleride farklı olacakç.
+
+MODEL DOĞRULAMA (MODEL VALİDATİON) YÖNTEMLERİ
+
+HOLDOUT YÖNTEMİ (SINAMA SETİ)
+Orjinal veri setini, Eğitim Seti(%80) ve Test Seti(%20) şeklinde iki parçaya ayırıyoruz.
+Eğitim seti ile öğrenme gerçekleşip model fonksiyonu oluşturuluyor, test seti ile test ediliyor.
+Gözlem seti az olduğunda bu yöntemi kullanamıyoruz.
+
+K-KATLI ÇAPRAZ DOĞRULAMA (K FOLD CROSS VALİDATİON)
+Bu yöntem bizim için en önemli yöntemlerden birisidir.
+HOLDOUT'ta olduğu gibi %80'e %20 Eğitim ve Test seti olarak ikiye ayrılır.
+        Eğitim          Test
+    1  2  3  4  5
+Eğitim seti k parçaya ayrılır, örneğimizde 5 parçaya ayırdık.
+5 nolu parça dışarıda tutularak model oluşturulur ve 5 numara üzerinde test yapılır.
+Bu olay sırasıyla her parçaya uygulanır. İşlem sonucunda doğrulama(eğitim9 hatası bulunur.
+Bu hata bir kenarda tutularak, oluşturulan model test seti üzerinde uygulanır.
+
+LEAVE ONE OUT
+Model içerisinde bulunan her bir gözlem tektek dışarıda bırakılarak defalarca model kurulur ve bir gözlem birimi test edilir.
+örneğin 1000 gözlemli veri seti, birinci gözlem dışarıda tutulur ve 999 gözlemle model kurulur ve birinci gözlemle test edilir.
+sonra ikinci, üçüncü ... gözlemler için uygulanır.
+Teorik olarak güzel fakat veri seti büyüdükçe kullanımı imkansıza yakın birşey oluyor.
+
+BOOTSTRAP
+Orjinal veriyi parçalara bölüyoruz, bu parça sayısından daha az sayıda bootstrap'lar oluşturuyoruz.
+Bu bootstraplardan modeller kurulur. Yerine koymalı şekilde veri seti üzerinden veri üretmektir.
+
+
