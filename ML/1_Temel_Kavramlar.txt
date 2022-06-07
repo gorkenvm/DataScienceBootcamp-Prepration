@@ -1,0 +1,56 @@
+DEĞİŞKENLER
+Bagımlı Değişken : Problemde tahmin etmek için hedeflediğimiz ana değişkenimizdir. Ör// Araç fiyatı
+Bağımsız Değişken : Bağımlı değişkeni oluşturduğu varsayılan diğer değişkenlerdir. ör// Vites, Km vb.
+
+ÖĞRENME TÜRLERİ
+Gözetimli : Bağımlı ve bağımsız değişkenler bir aradaysa bu duruma gözetimli öğrenme denir.
+Gözetimsiz : Bağımsız değişkenin çalışmanın içinde olmadığı öğrenme türüdür. Amaç, gözlem birimlerini birbirine benzer özelliklerine göre bir araya getirmektir.
+
+PROBLEM TÜRLERİ
+Regresyon : Bağımlı/hedef değişken sayısal/sürekli bir değişken ise bu bir regresyon problemidir.
+Sınıflandırma : Bağımlı/hedef değişken bir kategorik değişken ise bu bir sınıflandırma problemidir.
+
+MODEL EĞİTMEK
+Eğitim Seti : Algoritmaya verilen veri setidir.
+Test Seti : Eğitim seti kullanılarak oluşturulan fonksiyonun doğruluk oranını test etmek için kullandığımız veri setidir.
+ÖR// Orjinal Veri Seti 1.000 gözlem | Eğitim Seti 800 gözlem | Test Seti 200 gözlem şeklinde %80 e %20 bölmekteyiz.
+
+DEĞİŞKEN SEÇİMİ
+Minimum değişken sayısı ile en fazla açıklanabilirliği yakalamaya çalışırız.
+
+MODEL SEÇİMİ
+Birincisi : Oluşabilecek değişken kombinasyonları ile oluşturulan modeller arasında en iyi modelin seçilmesi
+İkincisi : Kurulan birbirinden farklı modeller arasından model seçimi
+
+Regresyon için açıklanabilirlik oranı ve RMSE(hata karaler ortalamasının karekökü) türevi bir değer incelenir.
+Sınıflandırma için doğru sınıflandırma oranı türevi bir değer için
+
+OVERFİTTİNG (AŞIRI ÖĞRENME)
+Algoritmanın veri setini ezberleme(%99 gibi) düzeyinde iyi öğrenip, görmemiş olduğu yeni veriler üzerinde tahmin yapmasını istenildiğinde başarısız olmasını ifade etmektedir.
+Çok fazla iyi öğrendiğinde, görmediği veriler üzerinde tahmin performansı düşmeye başlıyor, genellenebilirlik yetisini kaybediyor.
+
+DETERMİNİSTİK MODELLER
+Değişkenler arasında kesin bir ilişki vardır. y = 2,5x bunun gibi modellerdir.
+
+STOKASTİK MODELLER
+Olasılıksal modellerdir. y = 2,5x + Tesadüfi Hata gibi modellerdir.
+
+DOĞRUSAL MODELLER
+Bir doğru ile ifade edilen modellerdir.
+
+DOĞRUSAL OLMAYAN MODELLER
+Bir doğru yerine, bir eğri, ağaç vb gibi şekillerde ifade edilen modellerdir.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
