@@ -1,0 +1,77 @@
+MODEL TAHMİN BAŞARILARININ DEĞERLENDİRİLMESİ
+
+REGRESYON MODELLERİ İÇİN
+
+HATA KARELER ORTALAMASI (MSE)
+Gerçek değerler ile tahmin ediler değerlerin farkının karelerinin toplamının gözlem sayısına bölünmesi
+
+HATA KARALER ORTALAMA KARAKÖKÜ(RMSE)
+MSE de yapılan işlemde kare almıştık, bunu telafi etmek için karekök te alıyoruz.
+
+ORTALAMA MUTLAK HATA (MAE)
+Burada da kare yerine mutlak ifadesi kullanılıyor.
+
+
+SINIFLANDIRMA MODELLERİ İÇİN
+
+                    TAHMİN EDİLEN
+                SINIF: 1    SINIF: 0
+G                                               a: True Pozitif (TP)
+E   SINIF: 1        a           b               d: True Negatif (TN)
+R                                               c: False Pozitif(FP)
+Ç   SINIF: 0        c           d               b: False Negatif(FN)
+E
+K                                               Doğruluk: (TP+TN)/HEPSİ
+                                                Hata:     (FN+FP)/HEPSİ
+
+ROK EĞRİSİ
+Gerçek Pozitif ve Yanlış Pozitif oranlarının x ve y eksenine oturtularak bir eğri oluşturulmasıdır.
+Area Under Curve(eğri altındaki alan) bu alanın büyük olması modelin başarılı olduğunu belirtir.
+Hiç model kurmadığımızda ortadaki çizgi gibi olur. %50 şansımız olur yani
+
+BİAS - VARİANCE TRADEOFF ( YANLILIK - VARYANS DEĞİŞ TOKUŞU )
+
+Model kurarken 2 çeşit hata oluşuyor.
+1- Eğitim Hatası : Modeli kurmak için kullandığımız veri üzerinde elde ettiğimiz hatadır.
+2- Test Hatası : Kurulan modeli test etmek için kullandığımız veri seti için oluşan hatadır.
+
+Eğitim hatası test hatasının yanlı ve kötü bir tahmincisidir. Yani bir birlerine bağımlılıkları vardır.
+
+Yanlılık - Varyans değiş tokuşunu anlamak için önce esnkelik kavramını öğrenelim.
+
+Esneklik : Verinin fonksiyonel yapısının uygun bir şekilde yorumlanmasıdır.
+
+Kırmızı çizgiler fonksiyon, mavi noktalar verideki gözlemlerdir.
+
+Overfitting : Mavi noktalar kırmızı eğrinin tamamen üzerinde, Ezberlemiştir. Tamamen üzerinde olduğu için yüksek VARYANS vardır
+Underfitting : Mavi noktalar kırmızı eğriden uzaktadır. İyi öğrenememiştir. Yüksek YANLILIK vardır.
+DoğruModel : Mavi noktalar kırmızı eğriye oldukça yakındır. Düşük YANLIKLIK ve Düşük VARYANS vardır.
+
+Esnekliğinde varyansında yüksek olmasını istemeyiz, düşük olmaları modelin doğruluğunu gösterir.
+Neye Göre Seçiyoruz;
+Esneklik, ortalama test hatasına göre seçilir. Yani ortalama test hatası yüksek ise daha esnek yani varyansı daha yüksek model tercih ederiz.
+Ama model esnekleştiğinde yani varyansı arttığında bu bir yerde durmazsa varyans çok artacağı için overfitting olacak yani ezberlemiş olacak
+
+Modeli eğitirken değişken üretmek, hiperparametreleri optimize etmek gibi şeyler yapıyoruz.
+Peki neden? yapmaya çalıştığımız şey nedir ve ne zaman duracağız ?
+
+Eğitim setini eğitirken tahmin hatası düşüyor bu istediğimiz şeydir. Aynı zamanda modelin karmaşıklığı artıyor buda istediğimiz şeydir.
+(model karmaşıklığı : modeldeki parametrelerin sayısının artması)
+fakat öyle bir noktaya geliyor ki eğitim seti için tahmin hatası düşmeye devam ederken, test seti için tahmin hatası artmaya başlıyor.
+İşte bu noktada durmalıyız, burası optimum noktadır. Bu işlemlere devam edersek model overfitting olacaktır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
