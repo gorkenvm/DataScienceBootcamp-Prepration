@@ -1,0 +1,16 @@
+MODEL TAHMİN PERFORMANSINI ARTTIRMAK
+
+Model Parametreleri : Veriden öğrenilen parametrelerdir.
+y = b0+b1x1+b2x2+...+bpxp
+b ler model parametreleridir.
+
+Model Hiperparametreleri : Kullanıcı tarafından belirlenen ve veri ile optimize edilen parametrelerdir.
+Bu parametreler veriden çıkmaz, kullanıcının tanımlaması gerekir.
+
+Amacımız model parametrelerini ve hiperparametrelerini optimize etmeye çalışmak ve en az hata ile tahminlerde bulunmaya çalışmaktır.
+Bu amacı gerçekleştirme sürecinde yapılan optimizasyonlar yani ayarlamalardır model tuning, parametre tuning.
+Onlarca model arasında, model seçiminden başlar parametreleri ayarlama ile devam eder.
+
+
+
+
