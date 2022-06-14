@@ -1,0 +1,23 @@
+NLP eğitimine hoş geldiniz! Eğitimi tamamladığınız zaman aşağıdaki konular hakkında bilgi sahibi olacaksınız:
+
+
+Doğal Dil İşleme & Metin Madenciliği
+Temel String İşlemleri
+Metin Ön İşleme
+Büyük-Küçük Harf
+Noktalama İşaretlerinin Silinmesi
+Sayıların Silinmesi
+Stopwords
+Az Geçen Kelimelerin Silinmesi
+Tokenization
+Stemming
+Lemmatization
+NLP Uygulamaları
+Matematiksel İşlemler ve Basit Özellik Çıkarımı
+Metin Görselleştirme
+Word Cloud
+Şablonlara Göre Word Cloud
+Sentiment Analizi ve Sınıflandırma Modelleri
+Değişken Mühendisliği
+Count Vectors & TF-IDF
+Makine Öğrenmesi ile Sentiment Sınıflandırması
