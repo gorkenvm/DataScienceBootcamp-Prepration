@@ -1,0 +1,21 @@
+SQLite ile SQL Programlama eğitimine hoş geldiniz! Eğitimi tamamladığınız zaman aşağıdaki konular hakkında bilgi sahibi olacaksınız:
+
+
+Veri Tabanı Yönetim Sistemleri ve SQL
+Veri Tabanları ve SQL
+SQLite Kurulum İşlemleri
+Kendi Veri Tabanımız
+Jupyterlab
+Manuel Tablo Oluşturma İşlemleri
+SELECT İşlemleri
+WHERE
+AND & OR
+in / not in Kullanımı
+LIKE ile Seçim İşlemleri
+BETWEEN
+Aggregation Fonksiyonları: Temel İstatistiksel İşlemler
+GROUP BY ve Aggregation Fonksiyonları
+JOIN İşlemleri
+inner join
+SQL ve Pandas DataFrame Operasyonları
+sqlite3
